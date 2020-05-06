@@ -1,0 +1,18 @@
+#divID{
+
+    height: 500px;
+    width: 500px;
+    border: blue solid 4px;
+    background-image: url(https://cnet2.cbsistatic.com/img/BSR-iVuV_XC-WRDNAUXdSagtaCk=/940x0/2019/08/24/8656b6d6-57a9-48da-b00d-b83d2dd0c344/ecwe-nmu0aaqbms.jpg);
+    border-radius: 100px;
+    background-repeat: no-repeat;    
+}
+.aClass{
+
+    height: 500px;
+    width: 500px;
+    border:blue solid 4px;
+    background-image: url(https://i.pinimg.com/736x/3a/e4/4f/3ae44f56a69f0b0205dd708f7eebc032.jpg);
+    border-radius: 100px;
+    background-repeat: no-repeat;    
+}
