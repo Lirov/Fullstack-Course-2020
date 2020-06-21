@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Register</title>
+    <style>
+           body {
+            background-image: url("https://wallpaperaccess.com/full/1782498.jpg");
+            background-repeat: no-repeat;
+        }
+        .required::before{
+            content:"*";
+            color: red;
+        }
+        .navbar-brand:hover{
+            opacity: 0.6;
+        }
+        a:hover{
+            opacity: 0.6;
+        }
+        #submit{
+            opacity: 1.0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand bg-dark bg-dark ">
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-white" href="home.html">
+                <img src="logo.png" width="30" height="25" class="d-inline-block align-top">
+                LUXURY LIVING
+            </a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <li class="nav-item">
+                        <a class="nav-link text-white mr-lg-2" href="articles.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mr-lg-2" href="shop.html">Shop</a>
+                    </li>
+                </li>
+            </ul>
+            <span>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <li class="nav-item">
+                            <a class="nav-link text-white mr-lg-2" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mr-lg-2" href="register.html">Register</a>
+                        </li>
+                    </li>
+                </ul>
+            </span>
+        </nav>
+    </br>
+    </br>
+    <div class="container">
+        <h1 class="text-center text-white pt-5">Register</h1>
+    </br>
+    </br>
+    
+        <form>
+            <div class="row">
+                <div class="form-group col-4 text-white">
+                    <div class="required">
+                    <label>First Name</label>
+                    <input type="name" class="form-control"/>
+                </div>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Last Name</label>
+                    <input type="name" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Birth Date</label>
+                    <input type="date" class="form-control"/>
+                </div>
+                  <div class="form-group col-4 text-white">
+                    <label>Gender</label>
+                    </br>
+                    <div class="custom-control custom-radio custom-control-inline form-group col-4 text-white">
+                        <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                        <label class="custom-control-label" for="defaultInline1">Male</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline form-group col-4 text-white">
+                        <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                        <label class="custom-control-label" for="defaultInline2">Female</label>
+                      </div>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <div class="required">
+                    <label>Email</label>
+                    <input type="email" class="form-control"/>
+                </div>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Phone Number</label>
+                    <input type="phone" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Address</label>
+                    <input type="adress" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>City</label>
+                    <input type="city" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <div class="required">
+                    <label for="countries">Countries</label><br>
+                    <select class="form-group col-12" id="countries" name="countries">
+                        <option value="none">-----------</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Canada">Canada</option>
+                        <option value="China">China</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italy">Italy</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Spain">Spain</option>
+                        <option value="USA">USA</option>
+                    </select>
+                </div>                       
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Zip Code</label>
+                    <input type="city" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Password</label>
+                    <input type="city" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <label>Repeat Password</label>
+                    <input type="city" class="form-control"/>
+                </div>
+                <div class="form-group col-4 text-white">
+                    <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultChecked2">
+                    <br>
+                    </br>
+                    <label class="custom-control-label" for="defaultChecked2"><mark>I accept the Terms Of Use & Privay Policy</mark></label>
+                    <br>
+                    </br>
+                    <a id="submit" href="login.html" input type="submit" name="submit" class="btn btn-dark btn-md" value="submit">Submit</a>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
